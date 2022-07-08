@@ -1,10 +1,8 @@
-
 import time
 from datetime import datetime
 
 from rich.console import Console
 
-import pps
 import connection
 import account
 
@@ -87,9 +85,7 @@ if __name__ == "__main__":
                 #print(server_time)
                 print(currentTime)
 
-                lines = pps.pps(history, bar_size=bar_size, prediction_window=prediction_window)
-
-                print(lines)
+                # Define custom strategy here. 
 
                 history = []
 

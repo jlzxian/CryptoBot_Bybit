@@ -1,5 +1,7 @@
 # CryptoBot
  
+Allows user to stream crypto data from Bybit.  User can also define custom trading strategy, and submit orders to Bybit for execution.
+ 
 Install Instructions
 1. Install Python 
 2.
@@ -7,6 +9,7 @@ Install Instructions
 pip install -r requirements.txt --user
 ```
 (--user) might needed for access to download
+
 3. Create Certs configs
 Open Read Me from ./config/README.txt
 
